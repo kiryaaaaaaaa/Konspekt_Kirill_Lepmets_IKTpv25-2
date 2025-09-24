@@ -87,6 +87,83 @@ namespace Minu_konspekt
             {
                 Console.WriteLine("pikkust ei tunta");
             }
+
+
+            Console.WriteLine("tere, sisesta liidetav arv");
+            int arv1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("tere, sisesta liidetav arv");
+            int arv2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("palun sisesta tehemärk: / * + - ^ ");
+            string tehtetyyp = Console.ReadLine();
+
+            int tulemus = 0;
+
+            if (tehtetyyp == "+")
+            {
+                tulemus = arv1 + arv2;
+            }
+
+            else if (tehtetyyp == "-")
+
+            {
+                tulemus = arv1 - arv2;
+            }
+
+            else if (tehtetyyp == "*")
+            {
+                tulemus = arv1 * arv2;
+            }
+
+            else if (tehtetyyp == "/")
+            {
+                tulemus = arv1 / arv2;
+            }
+
+            else if (tehtetyyp == "^")
+            {
+                tulemus = (int)Math.Pow(arv1, arv2);
+            }
+            else
+            {
+                Console.WriteLine("Palun sisestada tehe, mida kalkulaator tuvastada oskab");
+            }
+            if (tulemus != 0)
+            {
+                Console.WriteLine(tulemus);
+            }
+            else
+            {
+                Console.WriteLine("Tulemus on 0, või üritasid teha tehet, mida kalkulaator ei tunne");
+            }
+            Console.WriteLine("Kas sa tahad õuna või banaani?");
+            string vastus = Console.ReadLine();
+
+            if (vastus == "õuna") ;
+            {
+                Console.WriteLine("🍎🍎🍎");
+            }
+
+            //4 parool, if ja string andmetüüp
+            Console.WriteLine("Programmi edasiseks tööks sisesta palun parool:");
+            string password = Console.ReadLine();
+            
+            if (password == "simsalabin")
+            {
+                Console.WriteLine("Parool on õige, aarete laegas avaneb");
+            }
+            else if (password == "saatana" || password == "1234" )
+            {
+                Console.WriteLine("parool on soobimatu, palun mingi muu");
+            }
+            else
+            {
+                Console.WriteLine("Parool on vale, proovi uuesti");
+            }
+
+
+
+
+
         }
     }
 }
