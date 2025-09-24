@@ -160,8 +160,25 @@ namespace Minu_konspekt
                 Console.WriteLine("Parool on vale, proovi uuesti");
             }
 
-
-
+            //5 värvituvastus
+            Console.WriteLine("Milline värv sulle kõige rohkem meeldib?:");
+            string favouriteColour = Console.ReadLine();
+            if(favouriteColour == "punane")
+            {
+                Console.BackgroundColor = ConsoleColor.Red;
+            }
+            if(favouriteColour == "oranz")
+            {
+                Console.WriteLine("Kahjuks oranzi ei ole");
+            }
+            if (favouriteColour == "kollane") ;
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+            }
+            if (favouriteColour == "roheline");
+            {
+                Console.BackgroundColor = ConsoleColor.Green;
+            }
 
 
         }
