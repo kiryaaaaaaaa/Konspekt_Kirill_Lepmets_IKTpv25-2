@@ -372,52 +372,76 @@ namespace minu_konspekt
             //try, type of, uint, ulong, unchecked, unsafe,
             //ushort, using, virtual, void, volatile, while.
 
-            //string kasutajaNimi = "";
+            //string kasutajanimi = "";
             //do
             //{
-            //    Console.WriteLine("Palun sisesta oma kasutajanimi: ");
-            //    kasutajaNimi = Console.ReadLine();
-            //} while (kasutajaNimi != "user1");
-            //Console.WriteLine("pass");
-            //if (kasutajaNimi == "user1")
+            //    console.writeline("palun sisesta oma kasutajanimi: ");
+            //    kasutajanimi = console.readline();
+            //} while (kasutajanimi != "user1");
+            //console.writeline("pass");
+            //if (kasutajanimi == "user1")
             //{
-            //    int ruuduSuurus = 0;
+            //    int ruudusuurus = 0;
 
             //    do
             //    {
-            //        Console.WriteLine("Kui suurt ruutu saada tahad?");
-            //        ruuduSuurus = int.Parse(Console.ReadLine());
-            //    } while (ruuduSuurus < 0 || ruuduSuurus > 20);
+            //        console.writeline("kui suurt ruutu saada tahad?");
+            //        ruudusuurus = int.parse(console.readline());
+            //    } while (ruudusuurus < 0 || ruudusuurus > 20);
 
             //    char reakujund = 'ϛ';
-            //    string üksRida = "";
-            //    int tsükliMuutuja = ruuduSuurus;
+            //    string üksrida = "";
+            //    int tsüklimuutuja = ruudusuurus;
 
             //    do
             //    {
-            //        üksRida = üksRida + "_" + reakujund;
-            //        tsükliMuutuja = tsükliMuutuja - 1;
-            //    } while (tsükliMuutuja != 0);
+            //        üksrida = üksrida + "_" + reakujund;
+            //        tsüklimuutuja = tsüklimuutuja - 1;
+            //    } while (tsüklimuutuja != 0);
 
-            //    tsükliMuutuja = ruuduSuurus;
+            //    tsüklimuutuja = ruudusuurus;
 
             //    do
             //    {
-            //        Console.WriteLine(üksRida);
-            //        tsükliMuutuja -= 1;
-            //    } while (tsükliMuutuja != 0);
+            //        console.writeline(üksrida);
+            //        tsüklimuutuja -= 1;
+            //    } while (tsüklimuutuja != 0);
 
-            //    Console.WriteLine($"Palun, siin on sinu ruut, suurusega {ruuduSuurus}x{ruuduSuurus}");
+            //    console.writeline($"palun, siin on sinu ruut, suurusega {ruudusuurus}x{ruudusuurus}");
 
             //}
 
+            Console.WriteLine("Sisesta ostusumma");
+            double ostusma = double.Parse(Console).ReadLine());
+            if (ostusumma > 100)
+            {
+                Console.WriteLine("Saad 20% allahindlust");
+            }
+            else if (ostusumma < 101 && ostusumma > 50) ;
+            {
+                Console.WriteLine("Saad 10% allahindlust. c: yay");
+            }
+            else if (ostusumma < 51 && ostusumma > 20)
+            {
+                Console.WriteLine("5% allahindlust.");
+            }
+            else if (ostusumma < 21 && ostusumma > 0) ;
+            {
+                Console.WriteLine("allahindlust ei saa");
+            }
+            else
+            {
+                Console.WriteLine("sisestatud on vigane arv");
+            }
+
+
 
             /* tingimuslause osad */
-            if (true) {} //kaitstud sõna if kutsub esile tingimuslaus, mille tingimus on sulgude vahel, ning millele järgneb
-                         //koodiplokk tingimuse täitumisel teostetava koodiga
-            else if(true) {} //kaitsted sõnad "else" ja "if" (else if) kutsuvad esile sekundaarse tingimuslause, mille tingimus
-                             // ja eelneva tingimuse mittetäitmisel, tostatakse koodiplokki sees oev kood
-            else {} // kaitstud sõna else kutsub esile järeltingimuse, millele peab eelnema kas "if" või "else if" , ning mille koodiplokki sisu 
+            if (true) { } //kaitstud sõna if kutsub esile tingimuslaus, mille tingimus on sulgude vahel, ning millele järgneb
+                          //koodiplokk tingimuse täitumisel teostetava koodiga
+            else if (true) { } //kaitsted sõnad "else" ja "if" (else if) kutsuvad esile sekundaarse tingimuslause, mille tingimus
+                               // ja eelneva tingimuse mittetäitmisel, tostatakse koodiplokki sees oev kood
+            else { } // kaitstud sõna else kutsub esile järeltingimuse, millele peab eelnema kas "if" või "else if" , ning mille koodiplokki sisu 
                     // täidetakse kõikide teiste "if" ja "else if" tingimuste läbikukkumisel.
 
             /*   loogilised tehted */
