@@ -1,4 +1,5 @@
-﻿using system.componentmodel.design;
+﻿using System.Net.NetworkInformation;
+using system.componentmodel.design;
 
 namespace minu_konspekt
 {
@@ -442,34 +443,77 @@ namespace minu_konspekt
             else if (true) { } //kaitsted sõnad "else" ja "if" (else if) kutsuvad esile sekundaarse tingimuslause, mille tingimus
                                // ja eelneva tingimuse mittetäitmisel, tostatakse koodiplokki sees oev kood
             else { } // kaitstud sõna else kutsub esile järeltingimuse, millele peab eelnema kas "if" või "else if" , ning mille koodiplokki sisu 
-                    // täidetakse kõikide teiste "if" ja "else if" tingimuste läbikukkumisel.
+                     // täidetakse kõikide teiste "if" ja "else if" tingimuste läbikukkumisel.
 
-            /*   loogilised tehted */
+            int option = 3; // -----
+           
+            switch (option)  // "switch" on kaitstud sõna alternatiivse tingimuskontrolli jaoks mida saab else-if asemel kasutada.
+             // Sulgude vahele käib muutuja nimi, mille põhjal tingimuslik ümberlülitus toimub. Siin sulgude vahel ei ole tingimus ise, vaid kõigest kontrollitav muutuja, või omakorda sulgude vahel muu tingimus.
+             // pärast lülitusvalikut tuleb koodiplokk.
 
-            // && -> "and" loogiline tehe, mida kasutatakse  tingimuste kirjeldamisel, ning mis annab positiivse vastuse (true) juhul kui
-            //       mõlemal poll "&&" märki olevad tingimused ontäidetud, Kui üks neist ei ole, siis annab negatiivse vastuse (false).
-            // || "or"! loogiline tege, mida kasutatakse tingimuste kirjeldamisel, ning mis annab positiivse vastuse (true) siis kui
-            //    vähemalt üks tingimus on täietud. Negatiivne vastus (false) tagastatakse siis, kui kõik tingimused on täitmata.
-            //  !    -> "not" loogiline tehe, mida kasutatakse tingimuse tulemuse inverteerimiseks, Tulemus, mis muidu tagastaks (true),
-            //          hüümärgi abil tagastab (false), ja vastupidi . tulemus mis muidu tagastaks (false9, hüümärgi abil tagastab (true)
+            case 1:   //koodiplokk sees on erinevad juhtumid, juhtumiut sätestatakse kaitsud sõna "case" abil. antud juhul kontrollitakse, kas muutujas "option" on väärtus 1, mille järgned koolon ":" valjendades tingimuse täitumisel tehtava 
+                // kooditegevuse algust
+                break;  //kui tegevus on tehtud, väljutakse mitte ainult juhtumist vaid kogu käesoleva case-tingimustikust kaitstud 
+                        //sõnaga "break". Peale breaki on lause lõpumärk ";".
+            case 2:  <// juhtmeid võib olla mitmeid, antud juhul on neid kolm kindlat.
+                    break;
+            case 3:
+                Console.WriteLine(option); // tehtav kooditegevus.
+                break;
+            default:    //Default juhtumit täidetakse siis, kui ülejäänud juhtumid ei kirjelda muutujas "option" olevat seisu.
+                break; //Ka default lõppeb sõnaga break.
 
-            /* võrlusoperaatorid */
 
-            // =  -> "on võrdne". Võrdusmärkide ührl pool olev objekt peab vastama täpselt oma olemuselt võrdusmärkide teise pool oleva
-            //        objektiga, ei ole sama nagu üks võrdusmärk omistab, kaks võrdleb.
-            // != -> "ei ole võrdne". Võrdusmärgi ühel pool olev objekt *EI TOHI* olla samal kujul nagu võrdusmärgi teisel pool olev objekt.
-            //       Ta võib olla ükskõik mis muul kujul, aga mitte võrreldava objektiga samal kujul. Võrdusoperaator on komninatsioon
-            //       "on võrdne operaatorist, ja loogiliselt tehtest "not"
-            // > ->  "on suurem kui". Märgist vasakul pool olev objekt peaks olema suurem, kui paremal pool olev objekt.
-            // < ->  "on väiksem kui". Märgist vasakul pool olev objekt 
-            // >= ->  "suuremvördne".Märgist vasakul pool olev objekt peaks olema vähemalt vördne vöi suurem kui parempoolne objekt.
-            // Vordlusoperaator on kombinatsioon "on võrdne" ja "on suurem kui" operatoritest.
-            //<= -> "väiksemvõrdne".Märgist vasakul pool olev objekt peaks olena vähemalt vördne vöi väiksem kui parempoolne objekt.
-            // Vordlusoperaator on kombinatsioon "on vördne" ja "on väiksem kui" operaatoritest.
+                /* sõne tööristad ja muud tekstiga seotut */
 
-            /* omistusoperaatorid ja kiirtehed */
-            
-            int thing = 1;// =  -> üksik võrdusmärk muutuja sisse väärtuse, mida kasutada läbi muutuja nime.
+                string alfa = "a\nb";      // \n ->tekitab ühe siss reamurde, sõne kus on sees üks "\n", omab kahte rida.
+                string beta = $"a alfa b"; // $ -> lubab kasutada muutjaid loogeliste silgudega otse teksti sees. On variant fornateeritud stringist.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /*   loogilised tehted */
+
+                // && -> "and" loogiline tehe, mida kasutatakse  tingimuste kirjeldamisel, ning mis annab positiivse vastuse (true) juhul kui
+                //       mõlemal poll "&&" märki olevad tingimused ontäidetud, Kui üks neist ei ole, siis annab negatiivse vastuse (false).
+                // || "or"! loogiline tege, mida kasutatakse tingimuste kirjeldamisel, ning mis annab positiivse vastuse (true) siis kui
+                //    vähemalt üks tingimus on täietud. Negatiivne vastus (false) tagastatakse siis, kui kõik tingimused on täitmata.
+                //  !    -> "not" loogiline tehe, mida kasutatakse tingimuse tulemuse inverteerimiseks, Tulemus, mis muidu tagastaks (true),
+                //          hüümärgi abil tagastab (false), ja vastupidi . tulemus mis muidu tagastaks (false9, hüümärgi abil tagastab (true)
+
+                /* võrlusoperaatorid */
+
+                // =  -> "on võrdne". Võrdusmärkide ührl pool olev objekt peab vastama täpselt oma olemuselt võrdusmärkide teise pool oleva
+                //        objektiga, ei ole sama nagu üks võrdusmärk omistab, kaks võrdleb.
+                // != -> "ei ole võrdne". Võrdusmärgi ühel pool olev objekt *EI TOHI* olla samal kujul nagu võrdusmärgi teisel pool olev objekt.
+                //       Ta võib olla ükskõik mis muul kujul, aga mitte võrreldava objektiga samal kujul. Võrdusoperaator on komninatsioon
+                //       "on võrdne operaatorist, ja loogiliselt tehtest "not"
+                // > ->  "on suurem kui". Märgist vasakul pool olev objekt peaks olema suurem, kui paremal pool olev objekt.
+                // < ->  "on väiksem kui". Märgist vasakul pool olev objekt 
+                // >= ->  "suuremvördne".Märgist vasakul pool olev objekt peaks olema vähemalt vördne vöi suurem kui parempoolne objekt.
+                // Vordlusoperaator on kombinatsioon "on võrdne" ja "on suurem kui" operatoritest.
+                //<= -> "väiksemvõrdne".Märgist vasakul pool olev objekt peaks olena vähemalt vördne vöi väiksem kui parempoolne objekt.
+                // Vordlusoperaator on kombinatsioon "on vördne" ja "on väiksem kui" operaatoritest.
+
+                /* omistusoperaatorid ja kiirtehed */
+
+                int thing = 1;// =  -> üksik võrdusmärk muutuja sisse väärtuse, mida kasutada läbi muutuja nime.
             thing += 1;   // += -> võrdusmärk mille ees on pluss, automaatselt liidab muutujale otsa võrdusmärgi teisel pool oleva arvu.
                           //       asendeb tehet "thing = thing ? 1". on kombinatsioon matemaatilisest tehtest "+" ja omistamisest "=".
 
@@ -492,6 +536,46 @@ namespace minu_konspekt
 
             } while (true); //niikaua kuni while järel olevate sulgude vahel tingimus et täitu, käivitatakse ellnev kood uuesti.
 
+                //2. while 
+                int i = 1;   //tsüklimuutuja mis aitab järge pidada while tsükli toimimisel "while" on kaitstud sõna mis alustab while tsükli varianti, ilma "do"- ta, ning vajab alati välist tsüklimuutjat.
+                //antud juhul on selleks i. Tsükli tingimus, mis peale "while" sõna on, asub sulgude vahel,
+                //siin kontrolitaksegi tsükli tööd, läbi kindla tingimuse kasutades tsüklimuutujat.
+                //antud juhul tsükkel töötab niikaua, kuni i on väiksem kui 5. kui i on sama suur nagu 5, siis tsükel 
+                //katkeb.
+
+                //koodiplokk kus midagi tehakse 
+                i++;    //ning seejärel mudeetakse tsüklimutaja "i" olekut. antud juhul liidetakse 1 juurdu kiirtehtega "++".
+
+
+                //3. for
+                int kogus = 6; //muutuja mida tsükkel kasutaboma töö tegemiseks - teisisõnu, töödeödav materjal
+                for (int k = 0; k < kogus; k++) // kaitstud sõna "for" alustab for-tsüklit, pärast mida on sulud, mille vahel on kõik tsükli 
+                                                // töö jaoks vajalik olemas. Esimene parameeter, tekitab tsükli töö jaoks kohaliku muutuja
+                                                //tingimuse täitumist "k < kogus;" ning mille täitumisel tsükli töö jätkub, aga mille
+                                                // mitte-täitumisel tsükkel katkeb. Kolmas parameeter on tsüklimuutuja inkrementeerimine kiirtehtega
+                                                // "k++". Pane tähele, et iga sulgude vahel oleva osa järel (välja arvatud viimase) on
+                                                // lauselõpumärk. Tsükli tööd kontrolli  
+                                                // nagu "while" või "do-while" puhul.
+                                            //sulgudele järgneb, loogeliste sulgude vahel ole koodiplokk {
+                                                //stegevus tsükli sees, on muutuja "k" hetkearvu väljakuvamine.
+
+                    //4. foreach
+                    int[] arvuloend = { 3, 67, 420, 69, 42 }; // massiiv mida foreach kasutab või töötleb mingil kujul
+                foreach (var arvInLoend in arvuLoend)  //kaitstud sõna foreach alustab foreach tsükli. Pärast mida on sulud, mille vahel tekitatakse 
+                                                       //ajutine muutuja andmetüübiga "var2 töödeldava andmekogumi üksikelemendi jaoks. süntaksis olev kaitstud sõna "in" äljendab ey tsükkel käib selle loendi elementide kohta, ning var "arvInLend" 
+                                                       //muutuja hoiab endas just peale sõna "in" oleva andmekogumi elementi.Tsükil ei ole nähtasvat
+                                                       //tsüklimuutujt ega tingimust, tsükkel toimib niikaua kuni elemnte jätkub, ehk tsükli töö käib
+                                                       //iga üksiku elemendi kohta andmekogumis individuaalselt. Tsüklil ei ole vaja tsüklimuutujat, kuna talle on 
+                                                       //sisse ehitatud vaikimisi elemendi järjetuse jälgimine. Nipalju kui andmeid loendis on, ongi see
+                                                       //mis ütleb ära, mitu korda tsükkel käivitatakse.
+                                                       //peale sulge, on koodiplokk {} kus tehakse mingi tegevus
+                    Console.WriteLine(arvInLoend);     // Antud juhul kuvatakse välja ajutine         mlle sees on loendi, hetkel tsüklis olev element
+
+                /* Meetodid */
+
+                //Meetodid on väljakutsutavad koodijupid, Meetodid teostavad tavaliselt mingeid spetsifilisi funktsioone või tegevusi.
+                //Meetodid lasevad programmerijal taaskasutada oma eelnevalt kirjutatud koodi - write once use many times.
+                //Meetodeid on kahte 
 
 
 
@@ -517,12 +601,8 @@ namespace minu_konspekt
 
 
 
-
-
-
-
+                }
         }
-    }
 }
 
 
