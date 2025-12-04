@@ -617,7 +617,6 @@ namespace minu_konspekt
                                        //peale meetodi nime olevate sulgude vahel. Lause lõppeb lauselõpumärgiga ";"
                                        //See arendaja poold kirjutatud meetod rohkem koodi ei oma.
         
-
         // 2. tüüpi meetod - tagastab väärtuse:
         int[] arvutatavadArvud = new int[] { 67, 69, 420, 9001 }; //Töödeldavad andmed, mis asuvad täisarvumassiivis, muutujanimega
                                                                   //"arvutatavadArvud".
@@ -665,6 +664,7 @@ namespace minu_konspekt
                 }
         }
 }
+
 
 
 
