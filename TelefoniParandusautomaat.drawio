@@ -1,0 +1,300 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Leht-1" id="fB1QzGeU9JhF4-ehEfxz">
+    <mxGraphModel dx="1425" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J-bfzRQ9caDrdS25StRC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-1" target="J-bfzRQ9caDrdS25StRC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-1" value="Algus" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-2" target="J-bfzRQ9caDrdS25StRC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-2" value="Kuva kasutajale tekst &quot;Tere tulemast modifix parandusautomaati! Kuidas saan aidata&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-4" target="J-bfzRQ9caDrdS25StRC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-4" value="Kuva kasutajale tekst &quot;0 - head aega\n1 - tahan telefoni parandada&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-6" target="J-bfzRQ9caDrdS25StRC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-6" value="Kuva kasutajale tekst &quot;palun tee valik, kirjutades vastav arv: &quot;&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="620" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-8" target="J-bfzRQ9caDrdS25StRC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-8" value="Ootame kuni kasutaja sisestab täisarvu muutujasse valik" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.951;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-12" target="J-bfzRQ9caDrdS25StRC-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="955" />
+              <mxPoint x="550" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-15" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-14">
+          <mxGeometry x="-0.8801" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-12" target="J-bfzRQ9caDrdS25StRC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-18" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-17">
+          <mxGeometry x="-0.2538" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-12" value="Kas muutuja &quot;valik&quot; väärtus on väiksem kui 0 ja suurem kui 1?&amp;nbsp;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="910" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-16" target="J-bfzRQ9caDrdS25StRC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-21" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-20">
+          <mxGeometry x="-0.2403" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-16" value="Kas muutuja &quot;valik&quot; võrdub 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1094" width="110" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-19" target="J-bfzRQ9caDrdS25StRC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-19" value="Kuva kasutajale tekst &quot;Head aega, tulle teine kord jälle&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1101.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-22" target="J-bfzRQ9caDrdS25StRC-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="1131" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-22" value="Tekkime uus viga, et koodi välja minema. Sellest kasutame&amp;nbsp;throw new Exception(&quot;Exit&quot;);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1101.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-25" value="Lõpp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="2880" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.505;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-16" target="J-bfzRQ9caDrdS25StRC-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-28" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-27">
+          <mxGeometry x="-0.7969" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-35" target="J-bfzRQ9caDrdS25StRC-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-35" value="Kas valik võrdub 1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-35" target="J-bfzRQ9caDrdS25StRC-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.79999999999995" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-39" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-37">
+          <mxGeometry x="-0.7399" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-41" target="J-bfzRQ9caDrdS25StRC-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-41" value="Kuva kasutajale tekst &quot;Palun sisesta oma telefoni mudel, mida parandada soovid&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1530" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-43" target="J-bfzRQ9caDrdS25StRC-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-43" value="Kuva kasutajale tekst &quot;1 - IFöön\n2 - xiaomjau\n3 - nihuawei\n4 - Scamsung&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="1680" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-45" target="J-bfzRQ9caDrdS25StRC-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-45" value="Kuva kasutajale tekst &quot;palun tee valik, kirjutades vastav arv:&amp;nbsp;&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="1820" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-47" target="J-bfzRQ9caDrdS25StRC-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-47" value="Ootame kuni kasutaja sisestab täisarvu muutujasse telefoniMudel" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.966;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-49" target="J-bfzRQ9caDrdS25StRC-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1710" as="targetPoint" />
+            <mxPoint x="477.5" y="2150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="454" y="2150" />
+              <mxPoint x="518" y="2150" />
+              <mxPoint x="518" y="1710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-52" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-51">
+          <mxGeometry x="-0.9171" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-49" target="J-bfzRQ9caDrdS25StRC-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-49" value="Kas muutuja &quot;telefoniMudel&quot; väärtus on väiksem kui 1 ja suurem kui 4?&amp;nbsp;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2110" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-53" target="J-bfzRQ9caDrdS25StRC-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-65" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-56">
+          <mxGeometry x="-0.5755" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-53" target="J-bfzRQ9caDrdS25StRC-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-72" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-71">
+          <mxGeometry x="-0.5857" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-53" value="Kas telefoniMudel muutuja väärtus on 1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2290" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-55" target="J-bfzRQ9caDrdS25StRC-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-66" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-60">
+          <mxGeometry x="-0.381" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-55" target="J-bfzRQ9caDrdS25StRC-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-79" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-74">
+          <mxGeometry x="-0.2667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-55" value="Kas telefoniMudel muutuja väärtus on 2?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2440" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-59" target="J-bfzRQ9caDrdS25StRC-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-67" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-64">
+          <mxGeometry x="-0.5333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-59" target="J-bfzRQ9caDrdS25StRC-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-82" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-81">
+          <mxGeometry x="-0.12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-59" value="Kas telefoniMudel muutuja väärtus on 3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2580" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-63" target="J-bfzRQ9caDrdS25StRC-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-78" value="EI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-77">
+          <mxGeometry x="-0.4667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-63" target="J-bfzRQ9caDrdS25StRC-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-85" value="JAH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="J-bfzRQ9caDrdS25StRC-84">
+          <mxGeometry x="-0.2" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-63" value="Kas telefoniMudel muutuja väärtus on 4?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2720" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-70" value="Kuva kasutajale tekst&lt;div&gt;&quot;Aitäh, oma iFööni saad tagasi 1 nädala pärast&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-73" target="J-bfzRQ9caDrdS25StRC-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="2480" />
+              <mxPoint x="750" y="2920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-73" value="Kuva kasutajale tekst &quot;Aitäh, oma xiaomjau saad tagasi 1 päeva pärast&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2450" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-76" target="J-bfzRQ9caDrdS25StRC-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="2920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-76" value="Kuva kasutajale tekst &quot;See telefoni kahjuks ei oska parandada, sorri&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="2893" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-80" target="J-bfzRQ9caDrdS25StRC-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="2620" />
+              <mxPoint x="750" y="2920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-80" value="Kuva kasutajale tekst &quot;Aitäh, oma nihuawei saad maailmalõppu pärast&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2590" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-83" target="J-bfzRQ9caDrdS25StRC-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="2760" />
+              <mxPoint x="750" y="2920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-83" value="Kuva kasutajale tekst &quot;Aitäh, oma Scamsung saad tagasi 1 päeva pärast&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2730" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J-bfzRQ9caDrdS25StRC-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="J-bfzRQ9caDrdS25StRC-70" target="J-bfzRQ9caDrdS25StRC-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="2359" as="sourcePoint" />
+            <mxPoint x="1040" y="2950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="2330" />
+              <mxPoint x="750" y="2920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
